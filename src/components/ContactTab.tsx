@@ -17,14 +17,14 @@ const contacts: ContactLink[] = [
   {
     icon: <Github size={14} />,
     label: 'GitHub',
-    value: '@bananaskiee',
+    value: '@BananaSkiee',
     href: 'https://github.com/BananaSkiee',
   },
   {
     icon: <Mail size={14} />,
     label: 'Email',
-    value: 'bananaskiee@gmail.com',
-    href: 'mailto:bananaskiee@gmail.com',
+    value: 'coming soon',
+    href: 'mailto:',
   },
 ];
 
@@ -32,7 +32,7 @@ const ContactTab = () => {
   return (
     <div className="space-y-3">
       <p className="text-xs text-muted-foreground mb-3">
-        feel free to reach out through any of these platforms
+        Jangan ragu untuk menghubungi kami melalui platform-platform ini.
       </p>
       {contacts.map((contact, index) => (
         <a
