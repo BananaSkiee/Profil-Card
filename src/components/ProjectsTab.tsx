@@ -12,7 +12,7 @@ const projects: Project[] = [
     name: 'portfolio',
     description: 'coming soon',
     tech: ['Next.js', 'React'],
-    link: 'coming soon',
+    link: '',
   },
 ];
 
@@ -20,7 +20,7 @@ const ProjectsTab = () => {
   return (
     <div className="space-y-3">
       <p className="text-xs text-muted-foreground mb-3">
-        a collection of things i've worked on
+        kumpulan hal-hal yang telah saya kerjakan
       </p>
       {projects.map((project, index) => (
         <div key={index} className="content-section">
