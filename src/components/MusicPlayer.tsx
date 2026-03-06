@@ -85,7 +85,7 @@ const MusicPlayer = ({ tracks }: MusicPlayerProps) => {
   return (
     <div className="mt-6">
       <p className="text-xs text-muted-foreground mb-1">
-        🎧 on repeat — lagu yang lagi gw dengerin sekarang
+        on repeat — lagu yang lagi gw dengerin sekarang
       </p>
       <div className="content-section space-y-2">
         {/* Track info */}
