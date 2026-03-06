@@ -86,7 +86,7 @@ const DiscordStatus = ({ userId }: DiscordStatusProps) => {
         </div>
         <div className="flex flex-col flex-1">
           <a
-            href={`https://discord.com/users/${data.discord_user.id}`}
+            href={`https://discord.com/users/1346964077309595658`}
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs text-foreground/90 link-underline"
