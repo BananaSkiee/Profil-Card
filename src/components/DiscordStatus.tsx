@@ -34,7 +34,7 @@ const DiscordStatus = ({ userId }: DiscordStatusProps) => {
     };
 
     fetchStatus();
-    const interval = setInterval(fetchStatus, 30000); // Update every 30 seconds
+    const interval = setInterval(fetchStatus, 30000); // Update every 30 seconds tes
     return () => clearInterval(interval);
   }, [userId]);
 
