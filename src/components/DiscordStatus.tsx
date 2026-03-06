@@ -21,7 +21,7 @@ const DiscordStatus = ({ userId }: DiscordStatusProps) => {
   useEffect(() => {
     const fetchStatus = async () => {
       try {
-        const response = await fetch(`https://api.lanyard.rest/v1/users/1346964077309595658`);
+        const response = await fetch(`https://api.lanyard.rest/v1/users/${userId}`);
         const result = await response.json();
         if (result.success) {
           setData(result.data);
